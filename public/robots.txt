@@ -1,0 +1,21 @@
+# Tech EduVate - DevOps & Cloud Training Platform
+User-agent: *
+Allow: /
+Allow: /courses/
+Allow: /courses/devops
+Allow: /courses/aws
+Allow: /courses/azure
+Allow: /courses/gcp
+Allow: /courses/devsecops
+
+# Disallow private pages
+Disallow: /signin
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://techeduvate.com/sitemap.xml
+
+# Crawl delay for web crawlers
+Crawl-delay: 1
