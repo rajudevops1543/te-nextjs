@@ -1,5 +1,5 @@
 "use client";
-import { Linkedin, Twitter, Youtube } from "lucide-react";
+import { Linkedin, Facebook, Youtube, Instagram } from "lucide-react";
 import Logo from "./Logo";
 
 export default function Footer() {
@@ -21,17 +21,24 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: Linkedin,
-      href: "#",
+      href: "https://www.linkedin.com/company/techeduvate/",
       className:
         "w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors",
       testId: "link-linkedin",
     },
+     {
+      icon: Instagram,
+      href: "https://www.instagram.com/tech_eduvate/",
+      className:
+        "w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors",
+      testId: "link-instagram",
+    },
     {
-      icon: Twitter,
-      href: "#",
+      icon: Facebook,
+      href: "https://www.facebook.com/profile.php?id=61580384728699",
       className:
         "w-10 h-10 bg-blue-400 rounded-full flex items-center justify-center hover:bg-blue-300 transition-colors",
-      testId: "link-twitter",
+      testId: "link-facebook",
     },
     {
       icon: Youtube,
